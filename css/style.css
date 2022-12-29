@@ -213,6 +213,10 @@ nav .logo{
 
 
   /* Section Article */
+
+  a{
+    text-decoration: none;
+  }
   section{
       width: 100%;
       display: flex;
