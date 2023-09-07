@@ -1,147 +1,108 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>Sonibya</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<!-- feather icons -->
+	<script src="https://unpkg.com/feather-icons"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+	<link rel="stylesheet" href="css/navbar.css">
+	<title>Sonibya</title>
 </head>
 <body>
-     <!-- Navigation Bar -->
-    <nav>
-        <div data-aos="fade-right"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine" class="logo">
-         <h2>Sonibya</h2>
-        </div>  
-        <input type="checkbox" id="click">
-        <label for="click" class="menu-btn">
-        <i class="fas fa-bars"></i>
-        </label>
-        <ul data-aos="fade-right"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine">
-          
-          
-           
-        </ul>
-    </nav>
-
-<!-- Navigation Bar -->
-
-
-<section class="hero">
-    <img src="img/bg-hero.jpg" alt="">
-    <div class="hero1">
-        <p class="name" data-aos="fade-right">Sonibya Supriyatna</p>
-        <p class="moto" data-aos="fade-right">Belum nemu quote</p>
-    </div>
+<section>
+		<nav>
+			<input type="checkbox" id="check">
+			<label for="check" class="checkbtn">
+			<i class="fas fa-bars"></i>
+			</label>
+			<label class="logo">Sonibya</label>
+			<ul>
+				<li><a class="active" href="#">Beranda</a></li>
+				<li><a href="menu/blog/">Blog</a></li>
+				<li><a href="#">Projek</a></li>
+				<li><a href="menu/tentang/">Tentang</a></li>
+				<li><a href="menu/kontak/">Kontak</a></li>
+			</ul>
+		</nav>
 </section>
 
+ 
 
 <section>
-    <div class="container-1">
-        <h1 data-aos="fade-right">Blog</h1>
-        <div class="article">
+	<div class="container">
+		<div class="hero-article">
+			<img src="https://images.unsplash.com/photo-1682685794761-c8e7b2347702?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80">
+			<div class="tulisan">
+				<a href="menu/blog/Meluangkan Waktu/index.html">
+					<p class="judul">Meluangkan Waktu</p>
+					<p class="subjudul">4 Februari 2023</p>
+					<p class="isi">Terkadang, sebagai manusia, kita merasa terjebak dalam rutinitas yang monoton. Bangun, bekerja, istirahat, dan berulang lagi: pola hidup yang serasa tanpa makna</p>
+				</a>
+			</div>
+			<div class="f-tulisan">
+				<p class="time">3 menit dibaca</p>
+				<p class="by">by : Sonibya</p>	
+			</div>
+			
+		</div>
 
-            <a href="blog/terbiasa.html">
-                <div class="card" data-aos="fade-left">
-                    <div class="card-child">
-                        <img src="https://images.unsplash.com/photo-1671227498016-93aa927686f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="">
-                    </div>
-                    <div class="card-child1">
-                        <p id="a">Self Reminder</p>
-                        <p id="b">Terbiasa</p>
-                        <p id="c">9 September 2022</p>
-                    </div>
-                </div>
-            </a>
-<!--             <a href="blog/kekurangan.html">
-                <div class="card" data-aos="flip-left">
-                    <div class="card-child">
-                        <img src="https://images.unsplash.com/photo-1670922461466-17f2609a0b7c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
-                    </div>
-                    <div class="card-child1">
-                        <p id="a">Sambat</p>
-                        <p id="b">Kekurangan</p>
-                        <p id="c">17 Maret 2022</p>
-                    </div>
-                </div>
-            </a> -->
-<!--             <a href="blog/bingung.html">
-                <div class="card" data-aos="zoom-in">
-                    <div class="card-child">
-                        <img src="https://images.unsplash.com/photo-1670557934550-93665658943e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80" alt="">
-                    </div>
-                    <div class="card-child1">
-                        <p id="a">Sambat</p>
-                        <p id="b">Bingung</p>
-                        <p id="c">22 Maret 2022</p>
-                    </div>
-                </div>
-            </a> -->
-<!--             <a href="blog/jatuh.html">
-                <div class="card" data-aos="zoom-in-down">
-                    <div class="card-child" >
-                        <img src="https://images.unsplash.com/photo-1554747706-2e474e1ae0c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
-                    </div>
-                    <div class="card-child1">
-                        <p id="a">Sambat</p>
-                        <p id="b">Jatuh</p>
-                        <p id="c">9 Oktober 2022</p>
-                    </div>
-                </div>
-            </a> -->
-<!--             <a href="blog/bacot.html">
-                <div class="card" data-aos="zoom-out">
-                    <div class="card-child">
-                        <img src="https://images.unsplash.com/photo-1542189736-67ca49d5342b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
-                    </div>
-                    <div class="card-child1">
-                        <p id="a">Sambat</p>
-                        <p id="b">Bacot</p>
-                        <p id="c">4 Juni 2022</p>
-                    </div>
-                </div>
-            </a> -->
-             <a href="blog/Pertanyaan Sensitif.html">
-                <div class="card" data-aos="zoom-out">
-                    <div class="card-child">
-                        <img src="https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
-                    </div>
-                    <div class="card-child1">
-                        <p id="a">Opini</p>
-                        <p id="b">Pertanyaan Sensitif</p>
-                        <p id="c">4 Februari 2023</p>
-                    </div>
-                </div>
-            </a>
-            <a href="blog/Meluangkan Waktu.html">
-                <div class="card" data-aos="zoom-out">
-                    <div class="card-child">
-                       <img src="https://images.unsplash.com/photo-1675104180341-4b075869b3bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE5fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
-                    </div>
-                    <div class="card-child1">
-                        <p id="a">Gatau</p>
-                        <p id="b">Meluangkan Waktu</p>
-                        <p id="c">4 Februari 2023</p>
-                    </div>
-                </div>
-            </a>
-        </div>  
-    </div>
+
+
+	</div>
+
+	<div class="container">
+		<p class="judul-m-auto">Blog</p>
+
+
+		<div class="container-article">
+			<div class="hero-article1">
+
+				<a href="menu/blog/Menahan/">
+					<img src="https://plus.unsplash.com/premium_photo-1690522531276-24c679f29b6a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80">
+					<div class="tulisan">
+						<p class="judul">Menahan</p>
+						<p class="subjudul">4 Februari 2023 | Tempat Nongkrong</p>
+					</div>
+					<div class="f-tulisan">
+						<p class="time">3 menit dibaca</p>
+						<p class="by">by : Sonibya</p>	
+					</div>
+				</a>
+			</div>
+
+			<div class="hero-article2">
+
+				<a href="menu/blog/Ketika Pulang/">
+					<img src="https://images.unsplash.com/photo-1682695795255-b236b1f1267d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80">
+					<div class="tulisan">
+						<p class="judul">Ketika Pulang</p>
+						<p class="subjudul">6 September 2023 | Jalan</p>
+						
+					</div>
+					<div class="f-tulisan">
+						<p class="time">1 menit dibaca</p>
+						<p class="by">by : Sonibya</p>	
+					</div>
+				</a>
+			</div>
+
+			
+		</div>
+
+
+
+
+	</div>
 </section>
 
-<footer>
-   <p>Sonibya Supriyatna</p>
-</footer>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-<script>
-    AOS.init();
-</script>
+
+
+
 </body>
 </html>
